@@ -47,4 +47,36 @@ public class RegistrationTestsRA {
                 .assertThat().statusCode(400)
                 .assertThat().body("message.username",containsString("must be a well-formed email address"));
     }
+
+    @Test
+    public void registrationWrongPassword(){
+
+        AuthRequestDto dto = AuthRequestDto.builder().username("noa@gmail.com").password("Aa123").build();
+
+        given()
+                .body(dto)
+                .contentType(ContentType.JSON)
+                .when()
+                .post("user/registration/usernamepassword")
+                .then()
+                .assertThat().statusCode(400)
+                .assertThat().body("message.password",containsString("At least 8 characters"));
+    }
+
+    @Test
+    public void registrationDublicate(){
+
+        AuthRequestDto dto = AuthRequestDto.builder().username("noa@gmail.com").password("Nnoa12345$").build();
+
+        given()
+                .body(dto)
+                .contentType(ContentType.JSON)
+                .when()
+                .post("user/registration/usernamepassword")
+                .then()
+                .assertThat().statusCode(409)
+                .assertThat().body("message",containsString("already exists"));
+    }
+
+
 }

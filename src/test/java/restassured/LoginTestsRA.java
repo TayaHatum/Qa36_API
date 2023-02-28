@@ -40,6 +40,23 @@ public class LoginTestsRA {
     }
 
     @Test
+    public void loginSuccess2(){
+        AuthRequestDto auth = AuthRequestDto.builder().username("noa@gmail.com").password("Nnoa12345$").build();
+
+        String token = given()
+                .body(auth)
+                .contentType("application/json")
+                .when()
+                .post("user/login/usernamepassword")
+                .then()
+                .assertThat().statusCode(200)
+                .extract()
+                .path("token");
+
+        System.out.println(token);
+    }
+
+    @Test
     public void loginWrongEmail(){
        ErrorDto errorDto = given()
                 .body(AuthRequestDto.builder().username("noagmail.com").password("Nnoa12345$").build())
