@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43ff4ed-29a2-409e-b8d7-8bb1ffd91ae4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ContactResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/AddNewContactTestsOkhttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContactByIdOkhttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/GetAllContactsTestsOkhttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/GetAllContactsTestsOkhttp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/RegistrationTestsOkhttp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +53,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.Tests in 'okhttp'">
-    <configuration name="AddNewContactTestsOkhttp.addNewContactWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.RegistrationTestsRA.registrationWrongEmail">
+    <configuration name="LoginTestsRA.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -81,7 +80,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddNewContactTestsOkhttp.addNewContactWrongEmail&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -91,7 +90,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddNewContactTestsOkhttp.addNewContactWrongName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddNewContactTestsOkhttp.addNewContactWrongName&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContactByIdOkhttp.deleteContactByIdSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginWrongEmail2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContactByIdOkhttp.deleteContactByIdSuccess&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginWrongEmail2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllContactsTestsOkhttp.getAllContactsSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestsRA.registrationSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -150,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.GetAllContactsTestsOkhttp.getAllContactsSuccess&quot;" />
+            <option value="&quot;restassured.RegistrationTestsRA.registrationSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'okhttp'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTestsRA.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.*&quot;" />
+            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'okhttp'" />
-        <item itemvalue="Gradle.DeleteContactByIdOkhttp.deleteContactByIdSuccess" />
-        <item itemvalue="Gradle.GetAllContactsTestsOkhttp.getAllContactsSuccess" />
-        <item itemvalue="Gradle.AddNewContactTestsOkhttp.addNewContactWrongEmail" />
-        <item itemvalue="Gradle.AddNewContactTestsOkhttp.addNewContactWrongName" />
+        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongEmail" />
+        <item itemvalue="Gradle.RegistrationTestsRA.registrationSuccess" />
+        <item itemvalue="Gradle.LoginTestsRA.loginWrongEmail2" />
+        <item itemvalue="Gradle.LoginTestsRA.loginWrongEmail" />
+        <item itemvalue="Gradle.LoginTestsRA.loginSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +200,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677221459552</updated>
-      <workItem from="1677221461263" duration="11236000" />
+      <workItem from="1677221461263" duration="11329000" />
+      <workItem from="1677596921179" duration="7316000" />
     </task>
     <servers />
   </component>
