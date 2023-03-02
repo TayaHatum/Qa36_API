@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43ff4ed-29a2-409e-b8d7-8bb1ffd91ae4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/AddNewContactRA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/DeleteContactByIdRA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +197,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677221459552</updated>
       <workItem from="1677221461263" duration="11329000" />
-      <workItem from="1677596921179" duration="11391000" />
+      <workItem from="1677596921179" duration="11590000" />
+      <workItem from="1677772575017" duration="3000" />
     </task>
     <servers />
   </component>
